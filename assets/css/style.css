@@ -30,7 +30,10 @@ h1,h2 {
 
 #menu {
     font-size: 110%;
+    /*
     font-weight: bold;
+    */
+    font-weight: 600;
     letter-spacing: 4px;
 }
 
