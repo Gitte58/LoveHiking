@@ -192,7 +192,7 @@ hr {
 
 footer {
     height: 75px;
-    color: color: #252525;
+    color: #3a3a3a;
     padding: 1em;
     font-size: 110%;
     text-align: center;
@@ -206,6 +206,8 @@ footer > a {
     padding: 0 15px;
     font-size: 0.8rem;
 }
+
+/*
 .social-networks {
     text-align: center;
 }
@@ -220,7 +222,7 @@ footer > a {
     padding: 5%;
     color: #3a3a3a;
 }
-
+*/
 #photos {
     clear: both;
     line-height: 0;
@@ -230,4 +232,76 @@ footer > a {
 
 #photos > img {
     width: 100%;
+}
+
+/* Form formatting */
+fieldset {
+	border: none;
+	margin-top: 20px;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #5e361b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+input[type=reset] {
+
+	margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: white;
+    color: #5e361b;
+    border: 1px solid #5e361b;
+    border-radius: 5px;
+}
+	
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+
+select {
+    height: 36px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
+
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+label {
+    margin: 10px 15px 5px 0;
 }

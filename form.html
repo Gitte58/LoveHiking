@@ -17,10 +17,10 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="form.html">Subscribe</a>
+                    <a href="form.html" class="active">Subscribe</a>
                 </li>
                 <li>
-                    <a href="gallery.html" class="active">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -28,19 +28,25 @@
             </ul>
         </nav>
     </header>
-    <section id="photos">
-        <img src="assets/images/drakensberg-hiking-1.jpg" alt="Hikers in the Drakensberg Mountains1">
-        <img src="assets/images/drakensberg-hiking-2.jpg" alt="Hikers in the Drakensberg Mountains2">
-        <img src="assets/images/drakensberg-hiking-3.jpg" alt="Hikers in the Drakensberg Mountains3">
-        <img src="assets/images/drakensberg-hiking-4.jpg" alt="Hikers in the Drakensberg Mountains4">
-        <img src="assets/images/drakensberg-hiking-5.jpg" alt="Hikers in the Drakensberg Mountains5">
-        <img src="assets/images/kruger-hiking-7.png" alt="Kruger Park hiling7">
-        <img src="assets/images/eswatini-hiking-1.png" alt="Eswatini hiking1">
-        <img src="assets/images/munnik-meerkat-1.jpg" alt="Munnik Meerkat Mountainbike race1">
-        <img src="assets/images/munnik-meerkat-2.jpg" alt="Munnik Meerkat Mountainbike race2">
-        <img src="assets/images/kruger-hiking-4.png" alt="Kruger Park hiking4">
-        <img src="assets/images/kruger-hiking-5.png" alt="Kruger Park hiking5">  
-    </section>
+    <div class="vertical-center">
+        <h1>Win a gui</h1>
+        <p>Complete our survey for your chance to win!</p>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Your details</legend>
+
+            <div class="float-left">
+                <label for="name-field" class="block-label">Name</label>
+                <input id="name-field" Type="text" name="full-name" placeholder="Your name" required></input-id>
+            </div>
+            <div class="float-left">
+                <label for="email-field" class="block-label">Email</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" required>
+            </div>
+        </fieldset>
+    </form>
+    
     <footer>
         <div id="footer-outer">
             <span>Find us on:</span>
