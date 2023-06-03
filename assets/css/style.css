@@ -113,7 +113,9 @@ h1,h2 {
 
     position: absolute;
 }
+
 /* Upcoming events */
+
 #planned-events {
     height: 600px;
 }
@@ -121,27 +123,24 @@ h1,h2 {
 #left-about {
     padding: 10px 5px 25px 5px;
     border-radius: 8px;
-    padding-top: 30px;
     width: 33%;
     float: left;
+    position: relative;
     background-color:#f0660a;
 }
 
 #right-about {
     padding: 10px 5px 25px 5px;
     border-radius: 8px;
-    padding-top: 30px;
     width: 33%;
     float: right;
+    position: relative;
     background-color: #c36943;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    /*
-    background-color: rgb(127, 226, 127);
-    */
 }
 hr {
     border-top: 1px solid #3a3a3a;
@@ -221,22 +220,6 @@ footer > a {
     font-size: 0.8rem;
 }
 
-/*
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-*/
 #photos {
     clear: both;
     line-height: 0;
