@@ -28,25 +28,51 @@
             </ul>
         </nav>
     </header>
+
+<nav>
     <div class="vertical-center">
-        <h1>Win a gui</h1>
+        <h1>Subscribe to our newsletter and Win a guided Hike</h1>
         <p>Complete our survey for your chance to win!</p>
     </div>
+
     <form>
         <fieldset>
             <legend>Your details</legend>
 
             <div class="float-left">
                 <label for="name-field" class="block-label">Name</label>
-                <input id="name-field" Type="text" name="full-name" placeholder="Your name" required></input-id>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
             </div>
             <div class="float-left">
                 <label for="email-field" class="block-label">Email</label>
                 <input id="email-field" type="email" name="email" placeholder="Your email" required>
             </div>
+
+            <label for="age" class="block-label">Age</label>
+            <select id="age" name="age" required>
+                <option value="under-20">Under 20</option>
+                <option value="20s">20-29</option>
+                <option value="30s">30-39</option>
+                <option value="40s">40-49</option>
+                <option value="50s">50-59</option>
+                <option value="60+">60+</option>
+            </select>
         </fieldset>
+
+        <fieldset>
+			<legend>Activities</legend>
+			<div>
+				<label for="fav-activity" class="block-label">What is your favourite activity?</label>
+				<input id="fav-activity" list="activities" name="fav-activity" required>
+				<datalist id="activities">
+					<option value="Hiking">
+					<option value="Cycling">
+				</datalist>
+			</div>
+
     </form>
-    
+    </nav>
+
     <footer>
         <div id="footer-outer">
             <span>Find us on:</span>

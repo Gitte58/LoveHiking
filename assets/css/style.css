@@ -33,6 +33,7 @@ h1,h2 {
     font-size: 110%;
     font-weight: 600;
     letter-spacing: 4px;
+    background-color: #de300b;
 }
 
 #menu, #logo {
@@ -119,14 +120,14 @@ h1,h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: lightblue;
+    background-color:#f0660a;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+    background-color: #c36943;
 }
 
 #center-about {
@@ -197,8 +198,9 @@ footer {
     font-size: 110%;
     text-align: center;
     font-weight: 600;
-    background-color: rgb(146, 298, 80);
+    background-color: #1fa636;
     bottom: 0; 
+    position: fxed;
 }
 footer > a {
     letter-spacing: 4px;
@@ -235,6 +237,11 @@ footer > a {
 }
 
 /* Form formatting */
+
+.text-center {
+    text-align: center;
+}
+
 fieldset {
 	border: none;
 	margin-top: 20px;
@@ -292,6 +299,11 @@ legend {
 	font-weight: 600;
 	text-transform: uppercase;
 	margin: 20px 0 10px 0;
+}
+
+.vertical-center {
+    position: relative;
+    top: 30%;
 }
 
 .float-left {
