@@ -31,9 +31,6 @@ h1,h2 {
 
 #menu {
     font-size: 110%;
-    /*
-    font-weight: bold;
-    */
     font-weight: 600;
     letter-spacing: 4px;
 }
@@ -194,9 +191,21 @@ hr {
 }
 
 footer {
-    height: 150px;
+    height: 75px;
+    color: #252525;
+    padding: 1em;
+    font-size: 110%;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(146, 298, 80);
+    bottom: 0; 
 }
-
+footer > a {
+    letter-spacing: 4px;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
 .social-networks {
     text-align: center;
 }
