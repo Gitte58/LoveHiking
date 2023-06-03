@@ -33,7 +33,6 @@ h1,h2 {
     font-size: 110%;
     font-weight: 600;
     letter-spacing: 4px;
-    background-color: #de300b;
 }
 
 #menu, #logo {
@@ -74,7 +73,10 @@ h1,h2 {
 #hero-image {
     height: 600px;
     width: 100%;
+    /*
     background: url(../images/hiking-limpopo-v1.jpg) no-repeat center center;
+    */
+    background: url(../images/hiking-limpopo-v2.jpg) no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -117,6 +119,8 @@ h1,h2 {
 }
 
 #left-about {
+    padding: 10px 5px 25px 5px;
+    border-radius: 8px;
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -124,6 +128,8 @@ h1,h2 {
 }
 
 #right-about {
+    padding: 10px 5px 25px 5px;
+    border-radius: 8px;
     padding-top: 30px;
     width: 33%;
     float: right;
@@ -168,15 +174,15 @@ hr {
     text-align: left;
 }
 
-#welcome {
+#planned-events {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
 
 #circle-container {
-    width: 275px;
-    height: 275px;
+    width: 350px;
+    height: 350px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -186,9 +192,15 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../images/Center-image.jpg) no-repeat top left;
+    background: url(../images/hiking-logo-v1.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+#destinations {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
 
 footer {
